@@ -1,2 +1,75 @@
+@import url("font-awesome.min.css");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Arvo:700");
+
+	body, input, textarea, select {
+		font-family: 'Source Sans Pro';
+		font-weight: 300;
+		color: #777;
+		line-height: 1.65em;
+		font-size: 15pt;
+	}
+    .nameplate{
+      padding-top: 30px;
+    }
+    header h1{
+      font-family: 'Arvo';
+      color: #ED786A;
+      text-shadow: 0.05em 0.075em 0 rgba(0, 0, 0, 0.1);
+      font-weight: 700;
+      font-size: 3em;
+      letter-spacing: 13px;
+      text-transform: uppercase;
+    }
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: 600;
+		text-transform: uppercase;
+		color: #888;
+	}
+
+	h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+		color: inherit;
+		text-decoration: none;
+		border: 0;
+	}
+li{
+  text-transform: uppercase;
+  font-size: 15px;
+}
+	h2 {
+		font-size: 1.65em;
+		font-weight: 400;
+		letter-spacing: 4px;
+		margin: 0 0 1.5em 0;
+		line-height: 1.75em;
+	}
+
+	h3 {
+		font-size: 1em;
+		letter-spacing: 2px;
+		margin: 0 0 1.25em 0;
+	}
 body {
+  .navbar-custom{
+    background-color: #fff;
+  }
+  #logo{
+    font-family: 'font-awesome';
+  }
+  hr{
+    border: 7px solid #ED786A;
+  }
+  .red-lettering{
+    color: #ED786A;
+  }
+	.yesicandesktop{
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.janedoe{
+		padding-right: 20px;
+	}
+  .about{
+    padding-top: 50px;
+  }
 }
